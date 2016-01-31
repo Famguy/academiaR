@@ -25,3 +25,14 @@ url <- paste(url,"&sort=",sortby,":",stype,sep='')
 # Get URL data into JSON format
 print(url)
 data <- fromJSON(url)
+
+# Pagination
+url <- "http://127.0.0.1:3000/v1/schools?"
+i <- 0
+if (data$metadata$total > data$metadata$per_page) {
+while (length(data$results)>0) {
+	i <- i + 1
+	pageurl <- paste(url,'page=',as.integer(i),sep='')
+	data <- fromJSON(pageurl)
+	print(pageurl)	
+}}
