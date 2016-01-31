@@ -1,0 +1,22 @@
+An R package that provides easy access to the data behind the College Scorecard, which was recently released by the government.
+
+What will the package do?
+
+Provide access to data on college costs, demographics, and salaries for graduates
+Relevant links (For e.g. API docs, related software)
+
+API docs: https://collegescorecard.ed.gov/data/
+Are there other related software?
+
+Web presentation of data from government: https://collegescorecard.ed.gov
+What is the target audience
+
+R users with an interest in education, and education outcomes
+Do you need help with development or are just suggesting the idea?
+
+Just suggesting the idea; sorry, I don't have the cycles myself, but maybe someone would be interested
+what are some potential use cases?
+
+Summarize trends across colleges (the government site only provides college-by-college stats)
+Use college cost data for research, especially on relationship of educational outcomes
+Build shiny apps to help explore the data
