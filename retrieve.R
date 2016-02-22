@@ -36,3 +36,11 @@ while (length(data$results)>0) {
 	data <- fromJSON(pageurl)
 	print(pageurl)	
 }}
+
+# Manipulate JSON
+url <- "http://127.0.0.1:3000/v1/schools?fields=2013."
+data <- fromJSON(url)
+
+
+
+
